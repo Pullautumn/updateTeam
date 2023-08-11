@@ -5,7 +5,7 @@ js_config:
   KeyWord:
   - - jd_wxShopFollowActivity_activityId
   - - jd_wxShopFollowActivity_activityUrl
-  Name: 关注店铺有礼 · 超级无线
+  Name: 关注店铺有礼
   Script: jd_wxShopFollowActivity.js
   TimeOut: 0
   Wait: 2
@@ -15,15 +15,6 @@ js_config:
   KeyWord:
   - - jd_wxTeam_activityUrl
   Name: 组队瓜分奖品
-  Script: jd_wxTeam.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_wxShopFollowActivity_activityUrl
-  KeyWord:
-  - - jd_wxShopFollowActivity_activityUrl
-  Name: 关注店铺有礼 · 超级无线
   Script: jd_wxTeam.js
   TimeOut: 0
   Wait: 2
