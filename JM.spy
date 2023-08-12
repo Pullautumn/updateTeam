@@ -1,3 +1,4 @@
+js_config:
 - Container:
   - []
   Env: jd_wxTeam_activityUrl
