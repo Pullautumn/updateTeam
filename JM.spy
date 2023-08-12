@@ -134,3 +134,12 @@ js_config:
   Script: jd_wxCollectCard.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showTaskDraw_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showTaskDraw_activityUrl
+  Name: 九宫格抽奖（京耕）
+  Script: jd_jinggeng_showTaskDraw.js
+  TimeOut: 0
+  Wait: 2
