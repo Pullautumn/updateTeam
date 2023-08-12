@@ -315,3 +315,12 @@ js_config:
   Script: jd_lzkj_loreal_followShop.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_draw_url
+  KeyWord:
+  - - jd_lzkj_loreal_draw_url
+  Name: 幸运抽奖（lzkj_loreal）
+  Script: jd_lzkj_loreal_draw.js
+  TimeOut: 0
+  Wait: 2
