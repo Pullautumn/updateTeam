@@ -152,3 +152,21 @@ js_config:
   Script: jd_jinggeng_showTaskDraw.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: JD_Lottery_cart
+  KeyWord:
+  - - JD_Lottery_cart
+  Name: 京东抽奖机加购-KR
+  Script: jd_lottery_cart.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: JD_Lottery
+  KeyWord:
+  - - JD_Lottery
+  Name: 京东抽奖机通用
+  Script: jd_lottery.js
+  TimeOut: 0
+  Wait: 2
