@@ -170,3 +170,21 @@ js_config:
   Script: jd_lottery.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_drawShopGift_argv
+  KeyWord:
+  - - jd_drawShopGift_argv
+  Name: 店铺关注有礼
+  Script: jd_drawShopGift.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_daily_activityUrl
+  KeyWord:
+  - - jd_daily_activityUrl
+  Name: 每日抢好礼（超级无线/超级会员）
+  Script: jd_daily.js
+  TimeOut: 0
+  Wait: 2
