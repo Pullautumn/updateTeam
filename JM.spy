@@ -100,18 +100,9 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_completeInfoActivity_activityId
+  Env: jd_completeInfoActivity_activityUrl
   KeyWord:
-  - - jd_completeInfoActivity_activityId
-  Name: 完善信息有礼（超级会员）
-  Script: jd_completeInfoActivity.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_completeInfoActivity_venderId
-  KeyWord:
-  - - jd_completeInfoActivity_venderId
+  - - jd_completeInfoActivity_activityUrl
   Name: 完善信息有礼（超级会员）
   Script: jd_completeInfoActivity.js
   TimeOut: 0
