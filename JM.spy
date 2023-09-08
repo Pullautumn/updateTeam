@@ -121,7 +121,7 @@ js_config:
   Env: jd_lzkj_loreal_draw_url
   KeyWord:
   - - jd_lzkj_loreal_draw_url
-  Name: 幸运抽奖（lzkj_loreal）
+  Name: 幸运抽奖（超级无线）
   Script: jd_lzkj_loreal_draw.js
   TimeOut: 0
   Wait: 2
