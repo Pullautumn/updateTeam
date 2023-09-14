@@ -352,6 +352,33 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: LZKJ_SIGN
+  KeyWord:
+  - - LZKJ_SIGN
+  Name: 超级无线店铺签到
+  Script: jd_sevenDay.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: CJHY_SEVENDAY
+  KeyWord:
+  - - CJHY_SEVENDAY
+  Name: 超级无线店铺签到
+  Script: jd_sevenDay.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: CJHY_SIGN
+  KeyWord:
+  - - CJHY_SIGN
+  Name: 超级无线店铺签到
+  Script: jd_sevenDay.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_shopDraw_venderId
   KeyWord:
   - - jd_shopDraw_venderId
