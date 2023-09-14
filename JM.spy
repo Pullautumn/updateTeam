@@ -1,101 +1,20 @@
 js_config:
 - Container:
   - []
-  Env: jd_wxTeam_activityUrl
+  Env: jd_a2_id
   KeyWord:
-  - - jd_wxTeam_activityUrl
-  Name: 组队瓜分奖品（超级无线/超级会员）
-  Script: jd_wxTeam.js
+  - - jd_a2_id
+  Name: a2集成长值赢千元礼包
+  Script: jd_a2_draw.js
   TimeOut: 0
   Wait: 2
 - Container:
   - []
-  Env: LUCK_DRAW_URL
+  Env: jd_AJMH_id
   KeyWord:
-  - - LUCK_DRAW_URL
-  Name: 店铺抽奖通用活动-加密
-  Script: jd_luck_draw.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_wxCollectionActivity_activityUrl
-  KeyWord:
-  - - jd_wxCollectionActivity_activityUrl
-  Name: 加购有礼（超级无线/超级会员）
-  Script: jd_wxCollectionActivity.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_pointExgBeans_activityUrl
-  KeyWord:
-  - - jd_pointExgBeans_activityUrl
-  Name: 积分兑换京豆（超级会员）
-  Script: jd_pointExgBeans.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_lkFollowShop_url
-  KeyWord:
-  - - jd_lzkj_loreal_lkFollowShop_url
-  Name: 关注有礼（lzkj_loreal）
-  Script: jd_lzkj_loreal_lkFollowShop.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_upperSign_url
-  KeyWord:
-  - - jd_lzkj_loreal_upperSign_url
-  Name: 上上签抽奖（lzkj_loreal）
-  Script: jd_lzkj_loreal_upperSign.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_wxShopFollowActivity_activityUrl
-  KeyWord:
-  - - jd_wxShopFollowActivity_activityUrl
-  Name: 关注店铺有礼（超级无线/超级会员）
-  Script: jd_wxShopFollowActivity.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_daySign_url
-  KeyWord:
-  - - jd_lzkj_loreal_daySign_url
-  Name: 签到有礼（lzkj_loreal）
-  Script: jd_lzkj_loreal_daySign.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_followGoods_url
-  KeyWord:
-  - - jd_lzkj_loreal_followGoods_url
-  Name: 关注商品有礼（lzkj_loreal）
-  Script: jd_lzkj_loreal_followGoods.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_drawCenter_activityId
-  KeyWord:
-  - - jd_drawCenter_activityId
-  Name: 店铺抽奖中心（超级无线）
-  Script: jd_drawCenter.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_wxKnowledgeActivity_activityUrl
-  KeyWord:
-  - - jd_wxKnowledgeActivity_activityUrl
-  Name: 知识超人（超级无线/超级会员）
-  Script: jd_wxKnowledgeActivity.js
+  - - jd_AJMH_id
+  Name: 安佳做任务开盲盒，赢好礼
+  Script: jd_AJMH.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -109,56 +28,20 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_wxCartKoi_activityId
+  Env: jd_daily_activityUrl
   KeyWord:
-  - - jd_wxCartKoi_activityId
-  Name: 购物车锦鲤（超级无线）
-  Script: jd_wxCartKoi.js
+  - - jd_daily_activityUrl
+  Name: 每日抢好礼（超级无线/超级会员）
+  Script: jd_daily.js
   TimeOut: 0
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_loreal_draw_url
+  Env: jd_drawCenter_activityId
   KeyWord:
-  - - jd_lzkj_loreal_draw_url
-  Name: 幸运抽奖（超级无线）
-  Script: jd_lzkj_loreal_draw.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_wxCollectCard_activityId
-  KeyWord:
-  - - jd_wxCollectCard_activityId
-  Name: 集卡抽奖通用活动
-  Script: jd_wxCollectCard.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_jinggeng_showTaskDraw_activityUrl
-  KeyWord:
-  - - jd_jinggeng_showTaskDraw_activityUrl
-  Name: 九宫格抽奖（京耕）
-  Script: jd_jinggeng_showTaskDraw.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: JD_Lottery_cart
-  KeyWord:
-  - - JD_Lottery_cart
-  Name: 京东抽奖机加购-KR
-  Script: jd_lottery_cart.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: JD_Lottery
-  KeyWord:
-  - - JD_Lottery
-  Name: 京东抽奖机通用
-  Script: jd_lottery.js
+  - - jd_drawCenter_activityId
+  Name: 店铺抽奖中心（超级无线）
+  Script: jd_drawCenter.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -172,19 +55,496 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_daily_activityUrl
-  KeyWord:
-  - - jd_daily_activityUrl
-  Name: 每日抢好礼（超级无线/超级会员）
-  Script: jd_daily.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_fansDraw_activityUrl
   KeyWord:
   - - jd_fansDraw_activityUrl
   Name: 粉丝福利红包
   Script: jd_fansDraw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_fh_id
+  KeyWord:
+  - - jd_fh_id
+  Name: 飞鹤集成长值赢千元礼包
+  Script: jd_fh_draw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_floor_activityUrl
+  KeyWord:
+  - - jd_jinggeng_floor_activityUrl
+  Name: 盖楼有礼（京耕）
+  Script: jd_jinggeng_floor.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_loadBlindBox_activityUrl
+  KeyWord:
+  - - jd_jinggeng_loadBlindBox_activityUrl
+  Name: 惊喜开盲盒（京耕）
+  Script: jd_jinggeng_loadBlindBox.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showCart_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showCart_activityUrl
+  Name: 加购有礼（京耕）
+  Script: jd_jinggeng_showCart.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showDrawOne_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showDrawOne_activityUrl
+  Name: 大转盘抽奖（京耕）
+  Script: jd_jinggeng_showDrawOne.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showFavoriteShop_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showFavoriteShop_activityUrl
+  Name: 关注店铺有礼（京耕）
+  Script: jd_jinggeng_showFavoriteShop.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showInviteJoin_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showInviteJoin_activityUrl
+  Name: 邀请入会赢好礼（京耕）
+  Script: jd_jinggeng_showInviteJoin.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showPartition_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showPartition_activityUrl
+  Name: 组队瓜分奖品（京耕）
+  Script: jd_jinggeng_showPartition.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showPerfectInformation_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showPerfectInformation_activityUrl
+  Name: 完善资料有礼（京耕）
+  Script: jd_jinggeng_showPerfectInformation.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showSign_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showSign_activityUrl
+  Name: 店铺签到（京耕）
+  Script: jd_jinggeng_showSign.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: xx
+  KeyWord:
+  - - xx
+  Name: xx
+  Script: xx
   TimeOut: 0
   Wait: 2
