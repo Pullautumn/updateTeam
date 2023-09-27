@@ -343,38 +343,38 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: LZKJ_SEVENDAY
+  Env: jd_wxSign_sign_lzkj_Ids
   KeyWord:
-  - - LZKJ_SEVENDAY
-  Name: 超级无线店铺签到
-  Script: jd_sevenDay.js
+  - - jd_wxSign_sign_lzkj_Ids
+  Name: 店铺签到（超级无线/超级会员）
+  Script: jd_wxSign.js
   TimeOut: 0
   Wait: 2
 - Container:
   - []
-  Env: LZKJ_SIGN
+  Env: jd_wxSign_sevenDay_lzkj_Ids
   KeyWord:
-  - - LZKJ_SIGN
-  Name: 超级无线店铺签到
-  Script: jd_sevenDay.js
+  - - jd_wxSign_sevenDay_lzkj_Ids
+  Name: 店铺签到（超级无线/超级会员）
+  Script: jd_wxSign.js
   TimeOut: 0
   Wait: 2
 - Container:
   - []
-  Env: CJHY_SEVENDAY
+  Env: jd_wxSign_sign_cjhy_Ids
   KeyWord:
-  - - CJHY_SEVENDAY
-  Name: 超级无线店铺签到
-  Script: jd_sevenDay.js
+  - - jd_wxSign_sign_cjhy_Ids
+  Name: 店铺签到（超级无线/超级会员）
+  Script: jd_wxSign.js
   TimeOut: 0
   Wait: 2
 - Container:
   - []
-  Env: CJHY_SIGN
+  Env: jd_wxSign_sevenDay_cjhy_Ids
   KeyWord:
-  - - CJHY_SIGN
-  Name: 超级无线店铺签到
-  Script: jd_sevenDay.js
+  - - jd_wxSign_sevenDay_cjhy_Ids
+  Name: 店铺签到（超级无线/超级会员）
+  Script: jd_wxSign.js
   TimeOut: 0
   Wait: 2
 - Container:
