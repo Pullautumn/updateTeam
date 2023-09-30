@@ -584,3 +584,12 @@ js_config:
   Script: jd_opencardDPLHTY.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_zqydj_id
+  KeyWord:
+  - - jd_zqydj_id
+  Name: 攒券赢大奖任务
+  Script: jd_zqydj.js
+  TimeOut: 0
+  Wait: 2
