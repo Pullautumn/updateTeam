@@ -593,3 +593,21 @@ js_config:
   Script: jd_zqydj.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_dailyGrabs_url
+  KeyWord:
+  - - jd_lzkj_loreal_dailyGrabs_url
+  Name: 每日抢好礼（超级无线）
+  Script: jd_lzkj_loreal_dailyGrabs.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_organizeTeam_url
+  KeyWord:
+  - - jd_lzkj_loreal_organizeTeam_url
+  Name: 组队瓜分奖品（超级无线）
+  Script: jd_lzkj_loreal_organizeTeam.js
+  TimeOut: 0
+  Wait: 2
