@@ -620,3 +620,12 @@ js_config:
   Script: jd_lzkj_loreal_know.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_opencardLCD_id
+  KeyWord:
+  - - jd_opencardLCD_id
+  Name: 京东超级福利社
+  Script: jd_opencardLCD.js
+  TimeOut: 0
+  Wait: 2
