@@ -22,7 +22,7 @@ js_config:
   Env: jd_completeInfoActivity_activityUrl
   KeyWord:
   - - jd_completeInfoActivity_activityUrl
-  Name: 完善信息有礼（超级会员）
+  Name: 完善信息有礼（超级无线/超级会员）
   Script: jd_completeInfoActivity.js
   TimeOut: 0
   Wait: 2
