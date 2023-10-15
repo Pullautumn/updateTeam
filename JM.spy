@@ -426,6 +426,7 @@ js_config:
   Env: jd_collect_item_activityUrl
   KeyWord:
   - - jd_collect_item_activityUrl
+  - - jd_txzj_collect_item_id
   Name: 收藏大师-关注有礼
   Script: jd_txzj_collect_item.js
   TimeOut: 0
@@ -453,6 +454,7 @@ js_config:
   Env: jd_wxBuildActivity_activityId
   KeyWord:
   - - jd_wxBuildActivity_activityId
+  - - jd_lzkj_wxBuildActivity_activityId
   Name: 盖楼有礼（超级无线）
   Script: jd_wxBuildActivity.js
   TimeOut: 0
@@ -482,6 +484,7 @@ js_config:
   Env: jd_wxCollectionActivity_activityUrl
   KeyWord:
   - - jd_wxCollectionActivity_activityUrl
+  - - jd_cjhy_wxCollectionActivityId
   - - jd_wx_collection_id
   - - jd_wx_collection
   Name: 加购有礼（超级无线/超级会员）
@@ -520,6 +523,8 @@ js_config:
   Env: jd_wxKnowledgeActivity_activityUrl
   KeyWord:
   - - jd_wxKnowledgeActivity_activityUrl
+  - - jd_cjwxKnowledgeActivity_activityId
+  - - jd_cjhy_wxKnowledgeActivity_activityId
   Name: 知识超人（超级无线/超级会员）
   Script: jd_wxKnowledgeActivity.js
   TimeOut: 0
@@ -547,6 +552,7 @@ js_config:
   Env: jd_wxShareActivity_activityId
   KeyWord:
   - - jd_wxShareActivity_activityId
+  - - jd_fxyl_activityId
   Name: 分享有礼（超级无线）
   Script: jd_wxShareActivity.js
   TimeOut: 0
@@ -555,6 +561,7 @@ js_config:
   - []
   Env: jd_wxShopFollowActivity_activityUrl
   KeyWord:
+  - - jd_wxShopFollowActivity_activityId
   - - jd_wxShopFollowActivity_activityUrl
   - - jd_wx_shopFollow_id
   - - jd_wx_followshop
@@ -567,6 +574,7 @@ js_config:
   Env: jd_wxShopGift_activityUrl
   KeyWord:
   - - jd_wxShopGift_activityUrl
+  - - jd_cjhy_wxShopGift_ids
   Name: 店铺礼包特效
   Script: jd_wxShopGift.js
   TimeOut: 0
