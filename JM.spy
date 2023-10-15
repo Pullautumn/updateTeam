@@ -643,7 +643,6 @@ js_config:
   Script: jd_opencardLCD.js
   TimeOut: 0
   Wait: 2
-  Wait: 2
 - Container:
   - []
   Env: jd_lzkj_loreal_shopGift_url
