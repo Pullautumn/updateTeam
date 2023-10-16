@@ -254,7 +254,7 @@ js_config:
   Env: jd_lzkj_loreal_perfectInfo_url
   KeyWord:
   - - jd_lzkj_loreal_perfectInfo_url
-  Name: 完善有礼（lzkj_loreal）
+  Name: 完善有礼（超级无线）
   Script: jd_lzkj_loreal_perfectInfo.js
   TimeOut: 3600
   Wait: 2
