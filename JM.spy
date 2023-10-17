@@ -254,6 +254,7 @@ js_config:
   Env: jd_lzkj_loreal_perfectInfo_url
   KeyWord:
   - - jd_lzkj_loreal_perfectInfo_url
+  - - jd_loreal_lzkj_perfectInfo_id
   Name: 完善有礼（超级无线）
   Script: jd_lzkj_loreal_perfectInfo.js
   TimeOut: 3600
@@ -274,6 +275,7 @@ js_config:
   Env: jd_lzkj_loreal_sign_url
   KeyWord:
   - - jd_lzkj_loreal_sign_url
+  - - jd_loreal_lzkj_sign_id
   Name: 签到抽奖（lzkj_loreal）
   Script: jd_lzkj_loreal_sign.js
   TimeOut: 3600
@@ -420,6 +422,7 @@ js_config:
   Env: jd_cart_item_activityUrl
   KeyWord:
   - - jd_cart_item_activityUrl
+  - - jd_txzj_cart_item_id
   Name: 收藏大师-加购有礼
   Script: jd_txzj_cart_item.js
   TimeOut: 3600
@@ -448,6 +451,7 @@ js_config:
   Env: jd_lottery_activityUrl
   KeyWord:
   - - jd_lottery_activityUrl
+  - - jd_txzj_lottery_id
   Name: 收藏大师-幸运抽奖
   Script: jd_txzj_lottery.js
   TimeOut: 3600
@@ -457,7 +461,8 @@ js_config:
   Env: jd_wxBuildActivity_activityId
   KeyWord:
   - - jd_wxBuildActivity_activityId
-  - - jd_lzkj_wxBuildActivity_activityId
+  - - jd_wx_build_id
+  - - jd_wx_build
   Name: 盖楼有礼（超级无线）
   Script: jd_wxBuildActivity.js
   TimeOut: 3600
@@ -487,7 +492,6 @@ js_config:
   Env: jd_wxCollectionActivity_activityUrl
   KeyWord:
   - - jd_wxCollectionActivity_activityUrl
-  - - jd_cjhy_wxCollectionActivityId
   - - jd_wx_collection_id
   - - jd_wx_collection
   Name: 加购有礼（超级无线/超级会员）
@@ -526,8 +530,8 @@ js_config:
   Env: jd_wxKnowledgeActivity_activityUrl
   KeyWord:
   - - jd_wxKnowledgeActivity_activityUrl
-  - - jd_cjwxKnowledgeActivity_activityId
-  - - jd_cjhy_wxKnowledgeActivity_activityId
+  - - jd_wx_knowledge_id
+  - - jd_wx_Knowledge
   Name: 知识超人（超级无线/超级会员）
   Script: jd_wxKnowledgeActivity.js
   TimeOut: 3600
@@ -564,10 +568,9 @@ js_config:
   - []
   Env: jd_wxShopFollowActivity_activityUrl
   KeyWord:
-  - - jd_wxShopFollowActivity_activityId
   - - jd_wxShopFollowActivity_activityUrl
-  - - jd_wx_shopFollow_id
   - - jd_wx_followshop
+  - - jd_wx_shopFollow_id
   Name: 关注店铺有礼（超级无线/超级会员）
   Script: jd_wxShopFollowActivity.js
   TimeOut: 3600
@@ -576,8 +579,9 @@ js_config:
   - []
   Env: jd_wxShopGift_activityUrl
   KeyWord:
+  - - jd_wx_shopGift_id
   - - jd_wxShopGift_activityUrl
-  - - jd_cjhy_wxShopGift_ids
+  - - jd_daily_follow
   Name: 店铺礼包特效
   Script: jd_wxShopGift.js
   TimeOut: 3600
@@ -682,6 +686,8 @@ js_config:
   Env: jd_lzkj_loreal_pointsExchange_url
   KeyWord:
   - - jd_lzkj_loreal_pointsExchange_url
+  - - jd_loreal_lzkj_pointsExchange_id
+  - - jd_lz_exchange
   Name: 积分兑换（超级无线）
   Script: jd_lzkj_loreal_pointsExchange.js
   TimeOut: 3600
