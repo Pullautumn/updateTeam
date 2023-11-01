@@ -16,7 +16,6 @@ if __name__ == '__main__':
     processedCount = 0
     shortSleepTime = 60  # 每处理一个 JD_WSCK 后暂停 60 秒
     longSleepTime = 600  # 每累积处理 5 个 JD_WSCK 后暂停 600 秒
-    processedTotal = 0
 
     for ws in wslist:
         wspin = ws.split(";")[0]
@@ -53,19 +52,15 @@ if __name__ == '__main__':
                             ql_disable(eid)
                             text = "账号: {0} WsKey疑似失效, 已禁用Cookie".format(wspin)
                             ql_send(text)
-                    logger.info("暂停 {0} 秒\n".format(shortSleepTime))
-                    time.sleep(shortSleepTime)
                 else:
                     logger.info(str(wspin) + "账号有效\n")
                     eid = return_serch[2]
                     ql_enable(eid)
                     logger.info("--------------------\n")
                 processedCount += 1
-                processedTotal += 1
                 if processedCount >= 5:  # 每累积处理 5 个 JD_WSCK 后休眠
                     logger.info("累积处理 5 个 JD_WSCK，暂停 {0} 秒\n".format(longSleepTime))
-                    if processedTotal < len(wslist):  # 如果还有待处理的JD_WSCK，暂停600秒
-                        time.sleep(longSleepTime)
+                    time.sleep(longSleepTime)
                     processedCount = 0
             else:
                 logger.info("\n新wskey\n")
