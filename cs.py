@@ -14,10 +14,10 @@ if __name__ == '__main__':
     envlist = get_env()
 
     processedCount = 0
-    shortSleepTime = 60  # 前4次每处理一个 JD_WSCK 后暂停 60 秒
-    longSleepTime = 600  # 第5次每累积处理 5 个 JD_WSCK 后暂停 600 秒
+    shortSleepTime = 60  # 每处理一个 JD_WSCK 后暂停 60 秒
+    longSleepTime = 600  # 每累积处理 5 个 JD_WSCK 后暂停 600 秒
 
-    for ws in wslist:
+    for index, ws in enumerate(wslist):
         wspin = ws.split(";")[0]
         if "pin" in wspin:
             wspin = "pt_" + wspin + ";"
@@ -52,13 +52,13 @@ if __name__ == '__main__':
                             ql_disable(eid)
                             text = "账号: {0} WsKey疑似失效, 已禁用Cookie".format(wspin)
                             ql_send(text)
-                    if processedCount < 4:
-                        logger.info("暂停 {0} 秒\n".format(shortSleepTime))
-                        time.sleep(shortSleepTime)
-                    else:
+                    
+                    if (index + 1) % 5 == 0:  # 每处理5个 JD_WSCK 后暂停 600 秒
                         logger.info("累积处理 5 个 JD_WSCK，暂停 {0} 秒\n".format(longSleepTime))
                         time.sleep(longSleepTime)
-                    processedCount = (processedCount + 1) % 5
+                    else:
+                        logger.info("暂停 {0} 秒\n".format(shortSleepTime))
+                        time.sleep(shortSleepTime)
                 else:
                     logger.info(str(wspin) + "账号有效\n")
                     eid = return_serch[2]
