@@ -282,15 +282,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_loreal_upperSign_url
-  KeyWord:
-  - - jd_lzkj_loreal_upperSign_url
-  Name: 上上签抽奖（lzkj_loreal）
-  Script: jd_lzkj_loreal_upperSign.js
-  TimeOut: 3600
-  Wait: 2
-- Container:
-  - []
   Env: jd_mengniu_id
   KeyWord:
   - - jd_mengniu_id
