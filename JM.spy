@@ -199,7 +199,7 @@ js_config:
   Env: jd_lzkj_loreal_cart_url
   KeyWord:
   - - jd_lzkj_loreal_cart_url
-  Name: 加购有礼（lzkj_loreal）
+  Name: 加购有礼（超级无线）
   Script: jd_lzkj_loreal_cart.js
   TimeOut: 3600
   Wait: 2
@@ -227,7 +227,7 @@ js_config:
   Env: jd_lzkj_loreal_followGoods_url
   KeyWord:
   - - jd_lzkj_loreal_followGoods_url
-  Name: 关注商品有礼（lzkj_loreal）
+  Name: 关注商品有礼（超级无线）
   Script: jd_lzkj_loreal_followGoods.js
   TimeOut: 3600
   Wait: 2
