@@ -539,6 +539,7 @@ js_config:
   - - jd_wxMcLevelAndBirthGifts_activityUrl
   - - jd_wx_McLevelAndBirthGifts
   - - jd_wx_levelAndBirthGifts_id
+  - - jd_wxMcLevelAndBirthGifts_activityId
   Name: 生日礼包和会员等级礼包
   Script: jd_wxMcLevelAndBirthGifts.js
   TimeOut: 3600
