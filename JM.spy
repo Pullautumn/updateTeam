@@ -702,3 +702,12 @@ js_config:
   Script: jd_lzkj_loreal_inviteFollowShop.js
   TimeOut: 3600
   Wait: 2
+- Container:
+  - []
+  Env: jd_dpqd_tokens
+  KeyWord:
+  - - jd_dpqd_tokens
+  Name: 批量店铺签到（活动查询）
+  Script: jd_dpqd_main.js
+  TimeOut: 3600
+  Wait: 2
