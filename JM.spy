@@ -342,15 +342,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_qbyql_id
-  KeyWord:
-  - - jd_qbyql_id
-  Name: 倩碧邀请礼
-  Script: jd_qbyql.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_wxSign_sign_lzkj_Ids
   KeyWord:
   - - jd_wxSign_sign_lzkj_Ids
@@ -616,15 +607,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_zqydj_id
-  KeyWord:
-  - - jd_zqydj_id
-  Name: 攒券赢大奖任务
-  Script: jd_zqydj.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_lzkj_loreal_dailyGrabs_url
   KeyWord:
   - - jd_lzkj_loreal_dailyGrabs_url
@@ -668,16 +650,6 @@ js_config:
   - - jd_lzkj_loreal_shopGift_url
   Name: 店铺礼包（超级无线）
   Script: jd_lzkj_loreal_shopGift.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: DPQDTK
-  KeyWord:
-  - - DPQDTK
-  - - jd_shopSign_investigate_id
-  Name: 常规店铺签到
-  Script: jd_dpqd.js
   TimeOut: 0
   Wait: 2
 - Container:
