@@ -926,3 +926,12 @@ js_config:
   Script: jd_wxSignPoint.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_v2_draw_url
+  KeyWord:
+  - - jd_lzkj_v2_draw_url
+  Name: 幸运抽奖（超级无线V2）
+  Script: jd_lzkj_v2_draw.js
+  TimeOut: 0
+  Wait: 2
